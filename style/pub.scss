@@ -1,0 +1,64 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    body {
+        width: 100%;
+        height: 100%;
+        font-size: 0.12rem;
+        display: flex;
+        flex-direction: column;
+        background: #f5f5f5;
+        // header
+        header {
+            height: 3.67rem;
+            background: #1b82d1;
+            box-sizing: border-box;
+            color: #fff;
+            padding: 0.5rem;
+        }
+        main {
+            height: 100%;
+            width: 100%;
+            flex: 1;
+            overflow: auto;
+            box-sizing: border-box
+        }
+        footer {
+            height: 1.65rem;
+            border-top: 1px solid #ccc;
+            box-sizing: border-box;
+            ul {
+                display: flex;
+                justify-content: center;
+                li {
+                    flex: 1;
+                    a {
+                        padding: 0.1rem;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        color: #bababa;
+                        font-size: 0.9rem;
+                        i {
+                            font-size: 0.6rem;
+                            color: #bababa;
+                        }
+                        span {
+                            font-size: 0.32rem;
+                        }
+                    }
+                }
+                .active {
+                    a {
+                        color: #29a1f7;
+                        i {
+                            color: #29a1f7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

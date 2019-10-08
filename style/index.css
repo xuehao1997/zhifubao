@@ -1,0 +1,282 @@
+@charset "utf-8";
+html {
+    height: 100%;
+    font-size: 100px;
+}
+
+body {
+    font: 16px "微软雅黑";
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+/* header */
+
+header {
+    height: 3.1rem;
+    background: #1b82d2;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+    font-size: 0.32rem;
+}
+
+
+/* 头部上面 */
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+}
+
+.header-top i {
+    font-size: 0.45rem;
+    /* vertical-align: middle; */
+    margin: 0 0.1rem;
+}
+
+.header-top>div {
+    position: relative;
+}
+
+.header-top>div:first-of-type>a:first-of-type {
+    position: absolute;
+    left: 0.3rem;
+    color: #ccc;
+    font-size: 0.3rem;
+}
+
+.header-top input {
+    width: 5rem;
+    height: 0.5rem;
+    border: 0;
+    outline: 0;
+    border-radius: 0.05rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+
+
+/* 头部下面 */
+
+.header-bottom ul {
+    display: flex;
+}
+
+.header-bottom li {
+    flex: 1;
+    /* width: 25%; */
+}
+
+.header-bottom i {
+    font-size: 0.7rem;
+}
+
+.header-bottom li a {
+    height: 2.38rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 主体内容 */
+
+.main {
+    flex: 1;
+    overflow: auto;
+    background: #f5f5f5;
+}
+
+
+/* 主体上部 */
+
+.main ul {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+.main li {
+    width: 25%;
+}
+
+.main li i {
+    font-size: 0.55rem;
+}
+
+.main li a {
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size: 0.26rem;
+    color: #373737;
+}
+
+.img1 {
+    background: #fff;
+    padding: 0.2rem;
+    margin-top: 0.1rem;
+}
+
+.img1 img {
+    height: 2rem;
+    width: 7rem;
+}
+
+.pay {
+    margin-top: 0.1rem;
+    background: #fff;
+    /* display: flex; */
+    padding: 0.2rem;
+}
+
+.pay a {
+    font-weight: bold;
+    color: #333;
+    font-size: 0.4rem;
+}
+
+.pay div {
+    margin-top: 0.1rem;
+    display: flex;
+    box-shadow: 1px 1px 2px 2px #f6f6f6;
+}
+
+.pay div a {
+    font-size: 0.33rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    /* border: 1px solid #ccc; */
+    border-radius: 0.1rem;
+    padding: 0.1rem;
+}
+
+.pay div a span {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay div a span b:last-of-type {
+    font-size: 0.23rem;
+    color: #999;
+}
+
+.pay img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.must {
+    padding: 0.2rem;
+    font-size: 0.35rem;
+    background: #fff;
+}
+
+.must a {
+    color: #333;
+}
+
+.must>a {
+    font-size: 0.4rem;
+}
+
+.must>a span {
+    font-size: 0.25rem;
+    color: #ccc;
+}
+
+.must>div {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #f6f6f6;
+}
+
+.must>div a {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 0.45rem;
+}
+
+.must>div a img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+}
+
+.must>div a span {
+    font-size: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.must>div a span b:last-of-type {
+    font-size: 0.25rem;
+    color: #ccc;
+}
+
+.must>div a span b:last-of-type i {
+    color: red;
+}
+
+.must-bot {
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+}
+
+.bottom {
+    font-size: 0.25rem;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+
+/* 尾部 */
+
+html body footer {
+    height: 1.65rem;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+html body footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+html body footer ul li {
+    flex: 1;
+}
+
+html body footer ul li a {
+    padding: 0.1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #bababa;
+    font-size: 0.9rem;
+}
+
+html body footer ul li a i {
+    font-size: 0.6rem;
+    color: #bababa;
+}
+
+html body footer ul li a span {
+    font-size: 0.32rem;
+}
